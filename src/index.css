@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav > div>a {
+padding:5px;
+text-decoration:none;
+color:brown;
+}
+
+input[type=text]{
+width:20%;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid black;
+}
+input[type=email]{
+width:20%;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid black;
+}
+input[type=date]{
+  width:20%;
+  border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid black;
+}
+input[type=submit]{
+  width:20%;
+  padding:5px;
+  background: royalblue;
+  border:none;
+  color: aliceblue;
+}
+.contact_name{
+  /* border:2px solid royalblue; */
+  padding:10px;
+}
